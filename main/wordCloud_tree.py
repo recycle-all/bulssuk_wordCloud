@@ -3,6 +3,8 @@ from flask_cors import CORS
 from wordcloud import WordCloud
 from collections import Counter
 from PIL import Image
+from dotenv import load_dotenv
+from logging.handlers import RotatingFileHandler
 import numpy as np
 import re
 import random
@@ -11,23 +13,25 @@ import os
 import html
 import logging
 
+
 # 로그 설정
+handler = RotatingFileHandler("server.log", maxBytes=1024 * 1024, backupCount=5)  # 1MB 크기, 5개의 백업 로그 유지
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,  # 로그 레벨 설정 (DEBUG, INFO, WARNING, ERROR, CRITICAL)
     format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("server.log"),  # 로그를 파일에 저장
-        logging.StreamHandler()            # 로그를 콘솔에 출력
-    ]
+    handlers=[handler, logging.StreamHandler()]  # 파일 및 콘솔 로그 출력
 )
 
 # Flask 앱 생성 및 CORS 설정
 app = Flask(__name__)
 CORS(app)
 
-# 네이버 검색 API 인증 정보
-CLIENT_ID = "1EMqh9I3E2bRjOi9G8M6"
-CLIENT_SECRET = "A1flID3HVB"
+# .env 파일 로드
+load_dotenv()
+
+# 환경 변수에서 API 인증 정보 가져오기
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
 # 프로젝트 디렉토리 및 리소스 경로 설정
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
