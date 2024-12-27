@@ -1327,3 +1327,36 @@
 2024-12-26 19:12:04,140 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=10&start=1&sort=date HTTP/11" 200 2279
 2024-12-26 19:12:04,141 - INFO - 네이버 뉴스 API 요청 성공
 2024-12-26 19:12:04,141 - INFO - 192.168.0.116 - - [26/Dec/2024 19:12:04] "GET /api/news HTTP/1.1" 200 -
+2024-12-27 09:21:47,651 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.116:5001
+2024-12-27 09:21:47,651 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-27 09:21:47,652 - INFO -  * Restarting with stat
+2024-12-27 09:21:47,816 - WARNING -  * Debugger is active!
+2024-12-27 09:21:47,821 - INFO -  * Debugger PIN: 183-114-411
+2024-12-27 09:22:12,911 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-27 09:22:12,921 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-27 09:22:13,038 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=10&start=1&sort=date HTTP/11" 200 2590
+2024-12-27 09:22:13,039 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-27 09:22:13,040 - INFO - 192.168.0.116 - - [27/Dec/2024 09:22:13] "GET /api/news HTTP/1.1" 200 -
+2024-12-27 09:22:18,021 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-27 09:22:18,022 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-27 09:22:18,114 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=10&start=1&sort=date HTTP/11" 200 2585
+2024-12-27 09:22:18,115 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-27 09:22:18,116 - INFO - 192.168.0.116 - - [27/Dec/2024 09:22:18] "GET /api/news HTTP/1.1" 200 -
+2024-12-27 09:22:22,644 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-27 09:22:22,647 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-27 09:22:22,748 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=10&start=1&sort=date HTTP/11" 200 2589
+2024-12-27 09:22:22,748 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-27 09:22:22,749 - INFO - 192.168.0.116 - - [27/Dec/2024 09:22:22] "GET /api/news HTTP/1.1" 200 -
+2024-12-27 09:43:03,270 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-27 09:43:03,274 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-27 09:43:03,397 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=10&start=1&sort=date HTTP/11" 200 2641
+2024-12-27 09:43:03,398 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-27 09:43:03,399 - INFO - 192.168.0.116 - - [27/Dec/2024 09:43:03] "GET /api/news HTTP/1.1" 200 -
+2024-12-27 09:50:51,659 - INFO - 뉴스 리스트 요청을 처리합니다.
+2024-12-27 09:50:51,662 - DEBUG - Starting new HTTPS connection (1): openapi.naver.com:443
+2024-12-27 09:50:51,763 - DEBUG - https://openapi.naver.com:443 "GET /v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=10&start=1&sort=date HTTP/11" 200 2641
+2024-12-27 09:50:51,763 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-27 09:50:51,764 - INFO - 192.168.0.116 - - [27/Dec/2024 09:50:51] "GET /api/news HTTP/1.1" 200 -
