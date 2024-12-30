@@ -154,10 +154,10 @@ if __name__ == "__main__":
     # 서버 중복 실행 방지
     try:
         update_content()  # 서버 시작 시 즉시 업데이트
-        app.run(debug=True, host="0.0.0.0", port=5002)
+        app.run(debug=True, host="0.0.0.0", port=5001)
     except OSError as e:
         if "Address already in use" in str(e):
-            print("포트 5002가 이미 사용 중입니다. 서버가 이미 실행 중일 수 있습니다.")
+            print("포트 5001가 이미 사용 중입니다. 서버가 이미 실행 중일 수 있습니다.")
             sys.exit(1)
         else:
             raise e
