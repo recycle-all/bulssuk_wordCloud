@@ -47,7 +47,7 @@ def recycle_colors_func(word, font_size, position, orientation, random_state=Non
 last_updated = None  # 마지막 업데이트 시간을 저장
 
 # 네이버 뉴스 데이터 가져오기
-def fetch_naver_news(display=5):
+def fetch_naver_news(display=10):
     keyword = "분리수거"
     url = "https://openapi.naver.com/v1/search/news.json"
     headers = {
@@ -64,7 +64,7 @@ def fetch_naver_news(display=5):
         response = requests.get(url, headers=headers, params=params)
         response.raise_for_status()
         data = response.json()
-        logging.info("네이버 뉴스 API 요청 성공")
+        logging.info(f"네이버 뉴스 API 요청 성공, 가져온 기사 개수: {len(data['items'])}")
         return data["items"]
     except requests.exceptions.RequestException as e:
         logging.error(f"네이버 뉴스 API 요청 실패: {e}")
@@ -100,7 +100,7 @@ def update_content():
     # 오전 6시 이후이고, 이전 업데이트가 없거나 하루가 지났다면 업데이트
     if not last_updated or now >= last_updated + timedelta(days=1):
         logging.info("컨텐츠 업데이트 시작")
-        descriptions = [item["description"] for item in fetch_naver_news(display=5)]
+        descriptions = [item["description"] for item in fetch_naver_news(display=10)]
 
         if descriptions:
             combined_text = " ".join(descriptions)
@@ -132,24 +132,20 @@ def wordcloud_endpoint():
 # 뉴스 리스트 API
 @app.route("/api/news", methods=["GET"])
 def news_endpoint():
-    update_content()  # 필요 시 컨텐츠 업데이트
-    articles = fetch_naver_news(display=10)
+    articles = fetch_naver_news(display=10)  # 최대 10개의 기사 요청
 
     if not articles:
         return jsonify({"error": "기사를 가져올 수 없습니다."}), 500
 
-    seen_titles = set()
-    news_list = []
-    for item in articles:
-        title = html.unescape(item["title"].replace("<b>", "").replace("</b>", ""))
-        if title not in seen_titles:
-            seen_titles.add(title)
-            news_list.append({
-                "title": title,
-                "link": item["link"]
-            })
+    # 중복 제거 없이 모든 기사 반환
+    news_list = [{
+        "title": html.unescape(item["title"].replace("<b>", "").replace("</b>", "")),
+        "link": item["link"]
+    } for item in articles]
 
+    logging.info(f"최종 반환된 기사 개수: {len(news_list)}")
     return jsonify(news_list)
+
 
 if __name__ == "__main__":
     import sys
@@ -161,7 +157,7 @@ if __name__ == "__main__":
         app.run(debug=True, host="0.0.0.0", port=5002)
     except OSError as e:
         if "Address already in use" in str(e):
-            print("포트 5001이 이미 사용 중입니다. 서버가 이미 실행 중일 수 있습니다.")
+            print("포트 5002가 이미 사용 중입니다. 서버가 이미 실행 중일 수 있습니다.")
             sys.exit(1)
         else:
             raise e

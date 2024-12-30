@@ -1572,3 +1572,143 @@
 2024-12-30 11:39:22,365 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
 2024-12-30 11:39:22,376 - WARNING -  * Debugger is active!
 2024-12-30 11:39:22,382 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:41:56,623 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:41:56,680 - INFO -  * Restarting with stat
+2024-12-30 11:41:56,939 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:41:56,998 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-30 11:41:57,248 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:41:57,248 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:41:57,262 - WARNING -  * Debugger is active!
+2024-12-30 11:41:57,268 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:42:59,164 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:42:59,214 - INFO -  * Restarting with stat
+2024-12-30 11:42:59,462 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:42:59,557 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-30 11:42:59,814 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:42:59,815 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:42:59,829 - WARNING -  * Debugger is active!
+2024-12-30 11:42:59,834 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:45:39,205 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:45:39,264 - INFO -  * Restarting with stat
+2024-12-30 11:45:39,519 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:45:39,617 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-30 11:45:39,875 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:45:39,876 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:45:39,891 - WARNING -  * Debugger is active!
+2024-12-30 11:45:39,896 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:46:03,746 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:46:03,856 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-30 11:46:04,115 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:46:04,116 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:46:04,173 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.116:5002
+2024-12-30 11:46:04,173 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-30 11:46:04,174 - INFO -  * Restarting with stat
+2024-12-30 11:46:04,331 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:46:04,391 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-30 11:46:04,630 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:46:04,630 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:46:04,641 - WARNING -  * Debugger is active!
+2024-12-30 11:46:04,646 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:47:47,101 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:47:47,163 - INFO -  * Restarting with stat
+2024-12-30 11:47:47,420 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:47:47,508 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-30 11:47:47,782 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:47:47,782 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:47:47,797 - WARNING -  * Debugger is active!
+2024-12-30 11:47:47,803 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:47:51,857 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:47:51,910 - INFO -  * Restarting with stat
+2024-12-30 11:47:52,071 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:47:52,159 - INFO - 네이버 뉴스 API 요청 성공
+2024-12-30 11:47:52,405 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:47:52,405 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:47:52,416 - WARNING -  * Debugger is active!
+2024-12-30 11:47:52,421 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:48:21,867 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:48:21,939 - INFO -  * Restarting with stat
+2024-12-30 11:48:22,174 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:48:22,234 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 5
+2024-12-30 11:48:22,481 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:48:22,481 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:48:22,495 - WARNING -  * Debugger is active!
+2024-12-30 11:48:22,501 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:49:03,809 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:49:03,896 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 5
+2024-12-30 11:49:04,146 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:49:04,146 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:49:04,200 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.116:5002
+2024-12-30 11:49:04,200 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-30 11:49:04,201 - INFO -  * Restarting with stat
+2024-12-30 11:49:04,351 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:49:04,475 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 5
+2024-12-30 11:49:04,722 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:49:04,722 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:49:04,734 - WARNING -  * Debugger is active!
+2024-12-30 11:49:04,738 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:50:21,823 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:50:21,873 - INFO -  * Restarting with stat
+2024-12-30 11:50:22,144 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:50:22,298 - INFO - 요청 URL: https://openapi.naver.com/v1/search/news.json?query=%EB%B6%84%EB%A6%AC%EC%88%98%EA%B1%B0&display=5&start=1&sort=date
+2024-12-30 11:50:22,299 - INFO - 네이버 뉴스 API 응답 데이터: {'lastBuildDate': 'Mon, 30 Dec 2024 11:50:22 +0900', 'total': 158797, 'start': 1, 'display': 5, 'items': [{'title': '랜딩기어·주날개 제동장치 미작동…‘복합불능’까지 갔나', 'originallink': 'https://biz.heraldcorp.com/article/10057692?ref=naver', 'link': 'https://n.news.naver.com/mnews/article/016/0002409178?sid=102', 'description': '항철위 관계자는 “조종실음성기록장치(CVR)는 외형 그대로 <b>수거</b>됐는데 FDR은 일부 <b>분리</b>가 됐다”면서 “FDR 해독은 시간이 오래 걸릴 것 같다. 한 달은 걸리지 않을까 싶다”고 말했다. 조사에는 미국 국가교통안전위원회... ', 'pubDate': 'Mon, 30 Dec 2024 11:36:00 +0900'}, {'title': "계룡시 생활자원회수센터, 재활용품 선별률 '전국 최고'", 'originallink': 'http://www.newstnt.com/news/articleView.html?idxno=446983', 'link': 'http://www.newstnt.com/news/articleView.html?idxno=446983', 'description': '계룡시 생활자원회수센터는 가정 및 군부대에서 <b>수거</b>된 재활용 폐기물을 종이류, 캔류, 병류, 비닐류... 재활용품을 깨끗하고 정확하게 <b>분리</b> 배출하는 시민들의 노력이 최첨단 설비와 함께 시너지 효과를 내고 있는... ', 'pubDate': 'Mon, 30 Dec 2024 11:26:00 +0900'}, {'title': "계룡시 생활자원회수센터, 재활용품 선별률 '전국 최고'", 'originallink': 'https://news.tf.co.kr/read/national/2165791.htm', 'link': 'https://n.news.naver.com/mnews/article/629/0000352130?sid=102', 'description': '지난 3월부터 운영 중인 생활자원회수센터는 각 가정 및 군부대에서 <b>수거</b>된 재활용 폐기물을 종이류, 캔류... 정확하게 <b>분리</b> 배출하는 높은 시민 의식이 있기에 가능했다&quot;며 &quot;<b>분리</b> 배출된 재활용품의 지속적인 선별... ', 'pubDate': 'Mon, 30 Dec 2024 11:23:00 +0900'}, {'title': '시흥시, 시흥우체국과 1월부터 ‘폐의약품 전용 봉투 회수 사업’ 시행', 'originallink': 'https://www.siminilbo.co.kr/news/newsview.php?ncode=1160259156593693', 'link': 'https://www.siminilbo.co.kr/news/newsview.php?ncode=1160259156593693', 'description': '정기적으로 <b>수거</b>해 처리해 왔다. 이번 업무협약으로 시흥시 관내에 설치된 우체통을 통해 시민들이 폐의약품을 편리하게 <b>분리</b>배출이 가능하게 되면서 시민 의식을 높이고, 폐의약품 회수율이 향상돼 환경문제 해결에도... ', 'pubDate': 'Mon, 30 Dec 2024 11:10:00 +0900'}, {'title': '무안공항 사고현장 수색 박차…유류품 확보에 총력', 'originallink': 'http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5084247', 'link': 'https://n.news.naver.com/mnews/article/057/0001863598?sid=102', 'description': '기체 <b>분리</b>로 탑승객들이 밖으로 튕겨져나간 탓에 수색은 적지 않은 시간이 걸릴 것으로 보입니다. 참사의 원인으로는 조류 충돌과 랜딩기어 미작동 등이 언급되고 있는데요. 국토교통부가 <b>수거</b>한 여객기 블랙박스를... ', 'pubDate': 'Mon, 30 Dec 2024 10:53:00 +0900'}]}
+2024-12-30 11:50:22,299 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 5
+2024-12-30 11:50:22,568 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:50:22,569 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:50:22,583 - WARNING -  * Debugger is active!
+2024-12-30 11:50:22,588 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:51:30,585 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:51:30,641 - INFO -  * Restarting with stat
+2024-12-30 11:51:30,903 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:51:31,005 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 5
+2024-12-30 11:51:31,262 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:51:31,262 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:51:31,278 - WARNING -  * Debugger is active!
+2024-12-30 11:51:31,283 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:52:31,214 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:52:31,270 - INFO -  * Restarting with stat
+2024-12-30 11:52:31,517 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:52:31,605 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 5
+2024-12-30 11:52:31,605 - INFO - 네이버 뉴스 API에서 반환된 기사 개수: 5
+2024-12-30 11:52:31,863 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:52:31,863 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:52:31,879 - WARNING -  * Debugger is active!
+2024-12-30 11:52:31,884 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:52:36,951 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:52:37,012 - INFO -  * Restarting with stat
+2024-12-30 11:52:37,208 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:52:37,303 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 5
+2024-12-30 11:52:37,554 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:52:37,555 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:52:37,570 - WARNING -  * Debugger is active!
+2024-12-30 11:52:37,575 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 11:55:42,414 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 11:55:42,466 - INFO -  * Restarting with stat
+2024-12-30 11:55:42,725 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 11:55:42,810 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 10
+2024-12-30 11:55:43,131 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 11:55:43,131 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 11:55:43,149 - WARNING -  * Debugger is active!
+2024-12-30 11:55:43,157 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 12:04:27,975 - INFO - 192.168.0.116 - - [30/Dec/2024 12:04:27] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-30 12:04:27,990 - INFO - 192.168.0.116 - - [30/Dec/2024 12:04:27] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-30 12:04:28,071 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 10
+2024-12-30 12:04:28,071 - INFO - 최종 뉴스 개수: 10
+2024-12-30 12:04:28,071 - INFO - 192.168.0.116 - - [30/Dec/2024 12:04:28] "GET /api/news HTTP/1.1" 200 -
+2024-12-30 12:05:58,356 - INFO -  * Detected change in '/Users/dk_ahn/Documents/ahndongkyu_aicc/Project/project3_bulssuk/recycle_all/bulssuk_python/main/wordCloud_tree.py', reloading
+2024-12-30 12:05:58,407 - INFO -  * Restarting with stat
+2024-12-30 12:05:58,657 - INFO - 컨텐츠 업데이트 시작
+2024-12-30 12:05:58,759 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 10
+2024-12-30 12:05:59,077 - INFO - 워드클라우드 이미지 생성 완료
+2024-12-30 12:05:59,078 - INFO - 컨텐츠 업데이트 완료: 2024-12-30 06:00:00
+2024-12-30 12:05:59,093 - WARNING -  * Debugger is active!
+2024-12-30 12:05:59,098 - INFO -  * Debugger PIN: 183-114-411
+2024-12-30 12:06:14,215 - INFO - 192.168.0.116 - - [30/Dec/2024 12:06:14] "GET /api/wordcloud HTTP/1.1" 200 -
+2024-12-30 12:06:14,305 - INFO - 네이버 뉴스 API 요청 성공, 가져온 기사 개수: 10
+2024-12-30 12:06:14,306 - INFO - 최종 반환된 기사 개수: 10
+2024-12-30 12:06:14,307 - INFO - 192.168.0.116 - - [30/Dec/2024 12:06:14] "GET /api/news HTTP/1.1" 200 -
